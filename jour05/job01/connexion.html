@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Job 01</title>
+</head>
+<body>
+
+    <h1>Connexion</h1>
+
+    <form id="form-connexion">
+        <div>
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <small id="error-email" style="color: red;"></small>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="password">Mot de passe :</label><br>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <small id="error-password" style="color: red;"></small>
+        </div>
+
+        <br>
+
+        <button type="submit" id="btn-submit">Se connecter</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
